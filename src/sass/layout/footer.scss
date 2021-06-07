@@ -1,0 +1,62 @@
+.footer{
+background: #15141a;
+}
+
+.wrapper--footer{
+padding: em(27.5) 0 em(22.5);
+color: #444348;
+text-align: center;
+}
+
+.social-media{
+font-size: rem(21);
+}
+
+.copyright-text{
+color: #444348;
+text-transform: uppercase;
+font-weight: 600;
+font-size: rem(14);
+padding-top: em(15);
+}
+
+.social-media-icon{
+transition: all 0.25s ease;
+
+  &:nth-child(1n+2){
+  padding-left: em(16);
+  }
+
+  &:hover{
+  color: var(--blue-color);
+  }
+
+  &:focus{
+  color: var(--blue-color);
+  }
+}
+
+.social-media-icon:before{
+font-family: 'FontAwesome';
+}
+
+.behance:before{
+content: '\f1b4';
+}
+
+.dribble:before{
+content: '\f17d';
+}
+
+.twitter:before{
+content: '\f099';
+}
+
+.facebook:before{
+content: '\f09a';
+font-size: rem(20);
+}
+
+.linkedin:before{
+content: '\f0e1';
+}

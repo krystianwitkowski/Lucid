@@ -1,0 +1,20 @@
+.download{
+background: #15141a;
+}
+
+.wrapper--download{
+padding: em(37.5) 0;
+}
+
+.download-header__title{
+color: #ffffff;
+}
+
+.download-buttons{
+padding-top: em(30);
+display: flex;
+
+  .btn--download{
+  margin-left: em(23);
+  }
+}

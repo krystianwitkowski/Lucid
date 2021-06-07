@@ -1,0 +1,45 @@
+h1,h2,h3,h4,h5,h6{
+--heading-color: #1a1a1a;
+color: var(--heading-color);
+font-weight: 600;
+}
+
+h2{
+font-size: em(18);
+}
+
+img{
+display: block;
+max-width: 100%;
+}
+
+p{
+color: var(--font-color);
+font-size: rem(16);
+line-height: 1.444;
+}
+
+a{
+text-decoration: none;
+color: inherit;
+outline: 0;
+}
+
+input, textarea{
+border: none;
+background: transparent;
+outline: 0;
+}
+
+label{
+display: block;
+}
+
+textarea{
+resize: none;
+}
+
+iframe{
+width:100%;
+display: block;
+}

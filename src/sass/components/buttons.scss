@@ -1,0 +1,41 @@
+.btn{
+color: #ffffff;
+font-weight: 700;
+border:none;
+background: var(--color);
+border-radius: 3px;
+padding: em(13);
+text-transform: uppercase;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: rem(14);
+outline:0;
+cursor: pointer;
+display: block;
+}
+
+.btn--download{
+--color: var(--blue-color);
+}
+
+.btn--view{
+--color: transparent;
+border: 1px solid rgba(255,255,255,0.2);
+
+  &:focus{
+  box-shadow: 0px 0px 6px rgba(255,255,255,0.2);
+  }
+}
+
+.btn--message{
+background-color: var(--blue-color);
+}
+
+.btn--download, .btn--message{
+  &:focus{
+  box-shadow: 0px 0px 6px var(--blue-color);
+  }
+}
+
+button::-moz-focus-inner {
+border: 0;
+}

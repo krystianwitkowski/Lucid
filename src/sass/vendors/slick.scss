@@ -1,0 +1,31 @@
+.slick-dots{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding-top: em(70);
+
+  li{
+  width:8px;
+  height:8px;
+  border: 1px solid red;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.2);
+  cursor: pointer;
+
+    button{
+    display: none;
+    }
+
+    &:nth-child(1n+2){
+    margin-left: em(11);
+    }
+  }
+
+  .slick-active{
+  width:14px;
+  height:14px;
+  background: #ffffff;
+  border: none;
+  }
+}

@@ -1,0 +1,138 @@
+.offers-header{
+text-align: center;
+}
+
+.wrapper--offers{
+padding: em(30) 0;
+}
+
+.offers-header__title{
+padding-top: em(9);
+}
+
+.offers-list{
+padding-top: em(35);
+}
+
+.offers-box{
+border: 1px solid #e0e0e0;
+max-width: rem(270);
+margin: 0 auto;
+outline: 0;
+
+  &:focus{
+    .offers-box-status{
+    border-bottom: 1px solid #ffffff;
+    }
+
+    .offers-box-payament{
+    background: var(--blue-color);
+    border-bottom: 1px solid #ffffff;
+    transition: all 0.25s ease;
+
+      .offers-box-payment__price{
+      color: #fafafa;
+      }
+
+      .offers-box-payment__month{
+      color: #fafafa;
+      }
+    }
+
+    .btn--order{
+    background: var(--blue-color);
+    color: #ffffff;
+    transition: all 0.25s ease;
+    border: 1px solid #ffffff;
+    }
+  }
+
+  &:nth-child(1n+2){
+  margin-top: em(30);
+  }
+
+  &:hover{
+  cursor: pointer;
+
+    .offers-box-status{
+    border-bottom: 1px solid #ffffff;
+    }
+
+    .offers-box-payament{
+    background: var(--blue-color);
+    border-bottom: 1px solid #ffffff;
+    transition: all 0.25s ease;
+
+      .offers-box-payment__price{
+      color: #fafafa;
+      }
+
+      .offers-box-payment__month{
+      color: #fafafa;
+      }
+    }
+
+    .btn--order{
+    background: var(--blue-color);
+    color: #ffffff;
+    transition: all 0.25s ease;
+    border: 1px solid #ffffff;
+    }
+  }
+}
+
+.offers-box-status{
+text-transform: uppercase;
+font-weight: 700;
+font-size: rem(16);
+text-align: center;
+display: block;
+padding-top: em(15);
+padding-bottom: em(12.5);
+border-bottom: 1px solid #e0e0e0;
+color: #1a1a1a;
+}
+
+.offers-box-payament{
+text-align: center;
+padding: em(22) 0 em(20);
+border-bottom: 1px solid #e0e0e0;
+}
+
+.offers-box-payment__price{
+font-size: em(30);
+font-weight: 600;
+display: block;
+color: #1a1a1a;
+
+  &:before{
+  content: '$';
+  font-size: rem(21);
+  vertical-align: top;
+  font-weight: 600;
+  }
+}
+
+.offers-box-payment__month{
+display: block;
+color: var(--font-color);
+padding-top: em(9);
+font-size: rem(16);
+}
+
+.offers-box-content__text{
+font-size: rem(16);
+text-align: center;
+}
+
+.offers-box-content{
+padding: em(27.5) em(15) em(14);
+
+  .btn--order{
+  color: var(--blue-color);
+  border: 1px solid #e0e0e0;
+  margin: 0 auto;
+  display: block;
+  margin-top: em(23.5);
+  }
+}

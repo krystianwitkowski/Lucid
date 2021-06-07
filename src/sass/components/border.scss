@@ -1,0 +1,21 @@
+.border{
+display: flex;
+justify-content: center;
+padding-top: em(17.5);
+
+  &:before{
+  content: '';
+  width: 20px;
+  height:2px;
+  background: var(--blue-color);
+  margin-right:1px;
+  }
+
+  &:after{
+  content: '';
+  width: 20px;
+  height:2px;
+  background: var(--blue-color);
+  margin-left: 1px;
+  }
+}

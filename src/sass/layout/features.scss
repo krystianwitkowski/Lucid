@@ -1,0 +1,172 @@
+.wrapper--features{
+padding: em(32.5) 0 0;
+max-width: initial;
+width:100%;
+}
+
+.features-header{
+text-align: center;
+max-width: rem(1200);
+width:90%;
+margin: 0 auto;
+
+  .border{
+  padding-top: em(20);
+  }
+}
+
+.features-list{
+padding: em(36.5) 0 em(38.5);
+border-bottom: 1px solid #ededed;
+width:90%;
+margin: 0 auto;
+}
+
+.features-header__title{
+padding-top: em(9);
+}
+
+.features-content{
+max-width: rem(90);
+margin: 0 auto;
+}
+
+.features-box{
+max-width: rem(250);
+margin: 0 auto;
+
+  &__title{
+  text-align: center;
+  font-size: rem(18);
+  padding-top: em(19.5);
+  }
+
+  &__text{
+  text-align: center;
+  padding-top: em(12.5);
+  }
+
+  &:nth-child(1n+2){
+  padding-top: em(30);
+  }
+}
+
+.features-details{
+display: grid;
+padding-top: em(33);
+padding-bottom: em(33);
+max-width: rem(1200);
+width:90%;
+margin: 0 auto;
+}
+
+.features-details-wrapper{
+grid-row: 2 / 3;
+max-width: rem(480);
+}
+
+.features-details-header{
+  .border{
+  justify-content: initial;
+  }
+}
+.features-details-header__title{
+padding-top: em(13);
+}
+
+.features-details-content{
+max-width: rem(500);
+width:50%;
+margin: 0 auto;
+}
+
+.features-details-text{
+padding-top: em(17.5);
+}
+
+.features-details-list{
+padding-top: em(20);
+}
+
+.features-details-list__item{
+color: #1b1b1b;
+font-size: rem(16);
+display: flex;
+align-items: center;
+
+  &:nth-child(1n+2){
+  padding-top: em(13.5);
+  }
+
+  &:nth-child(1):before{
+  content: '';
+  background: url('../images/cup_icon.png');
+  width: 16px;
+  height: 16px;
+  display: block;
+  margin-right: em(9);
+  }
+
+  &:nth-child(2):before{
+  content: '';
+  background: url('../images/mouse_icon.png');
+  width: 10px;
+  height: 17px;
+  display: block;
+  margin-right: em(14);
+  }
+
+  &:nth-child(3):before{
+  content: '';
+  background: url('../images/energy_icon.png');
+  width: 11px;
+  height: 17px;
+  display: block;
+  margin-right: em(13);
+  }
+
+  &:nth-child(4):before{
+  content: '';
+  background: url('../images/speedometer_icon.png');
+  width: 16px;
+  height: 16px;
+  display: block;
+  margin-right: em(9);
+  }
+}
+
+.features-customize{
+padding: em(66) 0 em(15);
+background: #f2f2f2;
+}
+
+.features-customize-header{
+  .border{
+  justify-content: initial;
+  }
+}
+
+.features-customize-header__title{
+padding-top: em(9);
+}
+
+.features-customize-text{
+padding-top: em(17.5);
+}
+
+.features-customize-wrapper{
+max-width: rem(480);
+}
+
+.features-customize-content{
+max-width: rem(500);
+width: 75%;
+margin: 0 auto;
+padding-top: em(30);
+}
+
+.features-customize-center{
+max-width: rem(1200);
+width: 90%;
+margin: 0 auto;
+}
